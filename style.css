@@ -1,0 +1,140 @@
+#title-block {
+    font-size: 30px;
+    width: 150px;
+    background-color: white;
+    display: inline-block;
+}
+
+body {
+    padding: 15px;
+    background-color:darkgrey
+    
+}
+
+.addrmv-btn {
+    font-size: 20px;
+    margin: 2px;
+    text-align: center;
+    background: none;
+    border-style: hidden;
+    height: 30px;
+    width: 30px;
+}
+
+ion-icon {
+    transition: color 0.5s;
+}
+
+ion-icon:hover {
+    color: lightcoral;
+}
+
+#column-controls {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#top > * {
+    vertical-align: middle;
+}
+
+.criteria-label {
+    margin: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+}
+
+.option-label {
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+}
+
+.row {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.score-box
+{
+    margin: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+    onfocus="this.placeholder = ''";
+    onblur="this.placeholder = 'enter your text'" 
+}
+
+#calculate-btn {
+    height: 30px;
+    float: right;
+    position: relative;
+    top: 25px;
+    background: none;
+    border-style: hidden;
+}
+
+#bottom {
+    width: 98%
+}
+
+.addrmv-col-btn {
+    margin-left: 15px;
+}
+
+.criteria-span {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 15px;
+}
+
+.criteria-subspan {
+    margin: auto;
+    text-align: center;
+}
+
+#calculate-output {
+    color: black;
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.addrmv-row-btn {
+    vertical-align: middle;
+    position: relative;
+    top: 20px;
+}
+
+.criteria-subspan > * {
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+    width: 60px;
+    margin: 3px;
+}
+
+.icon {
+    color: aquamarine;
+}
+
+#calculator-icon {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+#logo {
+    width: 150px;
+    height: 75px;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
